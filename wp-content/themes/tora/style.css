@@ -137,7 +137,10 @@ input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly i
 	padding: 0;
 }
 
+
 input[type="text"],
+input[type="tel"],
+select,
 input[type="email"],
 input[type="url"],
 input[type="password"],
@@ -149,8 +152,9 @@ textarea {
 	border-radius: 3px;
 	width: 100%;
 }
-
+select,
 input[type="text"]:focus,
+input[type="tel"],
 input[type="email"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus,
@@ -160,6 +164,8 @@ textarea:focus {
 }
 
 input[type="text"],
+select,
+input[type="tel"],
 input[type="email"],
 input[type="url"],
 input[type="password"],

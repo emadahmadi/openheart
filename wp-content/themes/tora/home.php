@@ -10,7 +10,6 @@ get_header(); ?>
 
 	<div id="primary" class="content-area <?php echo esc_attr(tora_blog_layout()); ?>">
 		<main id="main" class="site-main" role="main">
-
 		<?php if ( have_posts() ) : ?>
 
 			<div class="posts-layout">
